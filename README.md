@@ -1,7 +1,7 @@
 # Courage-THE DISCORD BOT 
 
 <div align="center">
-  <img src="musicard.png" alt="PrimeMusic Logo" width="400" height="100>
+  <img src="musicard.png" alt="PrimeMusic Logo" width="400">
   <h2>Advanced Discord Music Bot with Lavalink</h2>
   <p>A feature-rich Discord music bot that supports multiple music platforms and languages</p>
 </div>
