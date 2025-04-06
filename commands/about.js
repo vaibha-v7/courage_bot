@@ -1,6 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 const config = require("../config.js");
 const { description, permissions } = require('./ping.js');
+const musicIcons = require('../UI/icons/musicicons.js');
 
 
 module.exports = {
@@ -22,7 +23,7 @@ module.exports = {
 
             .setImage('https://i.ibb.co/FLNT55Gg/courage-dog-dc-logo.jpg')
             .setTimestamp()
-            .setFooter({ text: 'Made with 💖 by Vaibhav Patel ', iconURL: 'https://cdn.discordapp.com/emojis/900257798003240961.gif' });
+            .setFooter({ text: 'Made with 💖 by Vaibhav Patel ', iconURL: musicIcons.heartIcon });
 
         interaction.reply({ embeds: [embed] })
             
