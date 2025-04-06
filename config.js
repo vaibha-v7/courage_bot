@@ -17,7 +17,7 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Avinan",
+      name: "MuzammilOPYT",
       password: process.env.LAVALINK_PASSWORD,
       host: process.env.LAVALINK_HOST,
       port: parseInt(process.env.LAVALINK_PORT) || 9376,
